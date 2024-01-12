@@ -1,0 +1,15 @@
+.cards {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 2.rem;
+  gap: 1rem;
+}
+
+.cards div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px solid rgb(212, 123, 239);
+  width: 54px;
+  height: 100px;
+}
