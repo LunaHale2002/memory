@@ -1,15 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .cards {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  padding: 2.rem;
+  grid-template-columns: 100px 100px 100px 100px;
   gap: 1rem;
+  /* position: absolute;
+  float: left;
+  perspective: 500px; */
 }
 
 .cards div {
+  /* background-color: black;
+  transition: opacity .2s;
+  backface-visibility: hidden; */
+  transition: transform 1s;
+  transform-style: preserve-3d;
   justify-content: center;
   align-items: center;
   display: flex;
   border: 2px solid rgb(212, 123, 239);
-  width: 54px;
+  width: 100px;
   height: 100px;
 }
